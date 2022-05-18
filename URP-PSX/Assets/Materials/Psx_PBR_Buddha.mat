@@ -56,9 +56,22 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - Boolean_193028D2: 1
     - Boolean_3F1A8DAB: 1
+    - Boolean_431f3f9c3817472daebfe9779eedcaf1: 0
     - Boolean_43476D73: 1
     - Boolean_7165A49C: 1
     - Boolean_85059BBE: 1
@@ -67,7 +80,7 @@ Material:
     - Vector1_21C41D02: 256
     - Vector1_2CDA09C2: 0.5
     - Vector1_6F288C5B: 0.5
-    - Vector1_B2CC132F: 12
+    - Vector1_B2CC132F: 28.88
     - Vector1_B74833F8: 1
     - Vector1_B9994903: 2.45
     - Vector1_E8746023: 11.83
@@ -95,6 +108,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - Color_2E5415DE: {r: 1, g: 1, b: 1, a: 0}
+    - Color_63255aa0a70f46c49ac98f459f2c42b2: {r: 0, g: 0, b: 0, a: 0}
     - Color_881555E: {r: 1, g: 1, b: 1, a: 0}
     - Vector2_8044833E: {r: 1, g: 1, b: 0, a: 0}
     - Vector2_BEE4461D: {r: 1, g: 1, b: 0, a: 0}
@@ -102,6 +116,7 @@ Material:
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_BuildTextureStacks: []
 --- !u!114 &4969010920785245292
 MonoBehaviour:
   m_ObjectHideFlags: 11
